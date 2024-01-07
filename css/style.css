@@ -1,0 +1,328 @@
+*
+{
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body
+{
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.fs-7
+{
+    font-size: 0.7142857143em !important;
+}
+
+.fs-lg
+{
+    font-size: 6.4285714286rem;
+}
+
+.padding
+{
+    padding: 35px 0;
+}
+
+.muted
+{
+    color: #bfc1c8;
+}
+
+.bg-p
+{
+    background-color: #2d303d;
+}
+
+.body-bg
+{
+    background-color: #323544 !important;
+}
+
+.bg-dark-style
+{
+    background-color: #1e202b;
+}
+
+.nav-item 
+{
+    margin-left: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link,.active
+{
+   padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white !important;
+    font-weight: 400;
+    transition: 0.3s ease;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar-light .navbar-toggler {
+    border: none !important;
+}
+
+.toggle i{
+    border: 2px solid transparent;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 40px;
+    transition: 0.3s ease;
+}
+
+
+.toggle i:hover
+{
+    border-color: #009ad8;
+    color: #009ad8  !important;
+}
+
+.lh-lg
+{
+    line-height: 35px !important;
+}
+
+.day, .day2
+{
+    padding: 10px;
+}
+
+.day2
+{
+    background-color: #222530;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover,.active
+{
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+
+.header
+{
+    background: url(../images/banner.png) center center/cover;
+    min-height: 350px;
+    padding: 70px 0;
+}
+
+.find_location
+{
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.contact
+{
+    margin-top: 50px;
+    padding: 25px 60px 20px 25px !important;
+    background: #262936 !important;
+}
+
+.find_location input[type="text"], .contact {
+    width: 100%;
+    padding: 19px 50px 15px 20px;
+    background: #1e202b;
+    border-radius: 30px;
+    color: white;
+    outline: 0 !important;
+    border: none;
+}
+
+.find_location input[type="button"] {
+    position: absolute;
+    right: 5px;
+    border: none;
+    background: #009ad8;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: white;
+    top: 5px;
+    bottom: 5px;
+    outline: 0 !important;
+}
+
+.row-section
+{
+    position: relative;
+    top: -150px;
+}
+
+.bg-section
+{
+    background-color: #1e202b;
+    margin-bottom: -100px;
+}
+
+.num
+{
+    background-color: #323544;
+    padding: 30px 20px;
+}
+
+.location
+{
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+
+.degree
+{
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.degree2 .first-child
+{
+    font-size: 1.7142857143em;
+    color: white;
+}
+
+.degree2 small
+{
+    font-size: 1.1428571429em;
+}
+
+.custom
+{
+    color: #009ad8;
+    margin: 20px 0;
+}
+
+.forecast-content
+{
+    padding: 50px 20px 72px;
+    background-color: #262936;
+}
+
+.bg-footer
+{
+    background-color: #262936;
+    padding: 50px 0;
+}
+
+.socail-icon a
+{
+    background-color: #1e202b;
+    color: #009ad8;
+    transition: all .3s ease;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.socail-icon a i
+{
+    font-size: 1.2285714286em;
+}
+
+.socail-icon a:hover
+{
+    background-color: #009ad8;
+    color: white;
+}
+
+.map
+{
+    background: #262936 !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.map img
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.contact-form input:not([type="sumbit"]), .contact-form textarea {
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid #393c48;
+    background: transparent;
+    border-radius: 25px;
+}
+
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid #393c48;
+    background: transparent;
+}
+
+.contact-form textarea {
+    min-height: 150px;
+}
+
+.button, form input[type="submit"] {
+    outline: none;
+    border: none !important;
+    background: #009ad8 !important;
+    padding: 10px 20px !important;
+    border-radius: 30px !important;
+    color: white !important;
+}
+
+@media (max-width: 992px){
+    .bg-collaps
+{
+    background-color: #262936;
+    text-align: center;
+    border-radius: 10px;
+}
+    .collapse
+    {
+        padding: 30px 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .nav-item 
+{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-item .nav-link, .active
+{
+    padding: 18px !important;
+    display: block;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link,.active
+{
+    border: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover
+{
+    border: none;
+    color: white !important;
+}
+}
+
+.text-danger
+{
+    color: #dc3545!important;
+    position: relative;
+    top: -69px;
+    background: black;
+    text-align: center;
+    display: inline;
+}
+
+/*
+https://api.weatherapi.com/v1/forecast.json?key=568b6ac4c66f4d308fc164821232611&q=cai2&days=3#*/
+
